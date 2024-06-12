@@ -5,6 +5,7 @@ import React from 'react'
 // import Item04 from './components/Item04'
 import Five from './components/Five'
 import Six from './components/Six'
+import Seven from './components/Seven'
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       {/* <Input/> */}
       {/* <Item04/> */}
       {/* <Five/> */}
-      <Six/>
+      {/* <Six/> */}
+      <Seven/>
     </div>
   )
 }
