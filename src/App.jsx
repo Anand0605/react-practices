@@ -6,7 +6,12 @@ import React from 'react'
 import Five from './components/Five'
 import Six from './components/Six'
 import Seven from './components/Seven'
-
+import Todo from './components/Todo'
+import ChangBgNine from './components/ChangBgNine'
+import Routing from './components/Routing'
+import Quotesgen from './components/Quotesgen'
+import FileUploader from './components/FileUploader'
+import Auth from './components/Auth'
 const App = () => {
   return (
     <div>
@@ -16,7 +21,14 @@ const App = () => {
       {/* <Item04/> */}
       {/* <Five/> */}
       {/* <Six/> */}
-      <Seven/>
+      {/* <Seven/> */}
+      {/* <Todo/> */}
+      {/* <ChangBgNine/> */}
+      {/* <Routing /> */}
+      {/* <Quotesgen/> */}
+      {/* <FileUploader/> */}
+      <Auth/>
+
     </div>
   )
 }
