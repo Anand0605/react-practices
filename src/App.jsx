@@ -12,6 +12,7 @@ import Routing from './components/Routing'
 import Quotesgen from './components/Quotesgen'
 import FileUploader from './components/FileUploader'
 import Auth from './components/Auth'
+import Weather from './components/Weather'
 const App = () => {
   return (
     <div>
@@ -27,7 +28,8 @@ const App = () => {
       {/* <Routing /> */}
       {/* <Quotesgen/> */}
       {/* <FileUploader/> */}
-      <Auth/>
+      {/* <Auth/> */}
+     <Weather/> 
 
     </div>
   )
