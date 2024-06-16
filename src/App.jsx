@@ -13,7 +13,9 @@ import Quotesgen from './components/Quotesgen'
 import FileUploader from './components/FileUploader'
 import Auth from './components/Auth'
 import Weather from './components/Weather'
+import Search from './components/Search'
 const App = () => {
+  const items = ["Item1", "Item2", "Item3","Another Item", "Another Item2"]
   return (
     <div>
       {/* <Hello/> */}
@@ -29,7 +31,8 @@ const App = () => {
       {/* <Quotesgen/> */}
       {/* <FileUploader/> */}
       {/* <Auth/> */}
-     <Weather/> 
+     {/* <Weather/>  */}
+     <Search items={items}/>
 
     </div>
   )
