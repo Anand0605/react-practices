@@ -14,8 +14,11 @@ import FileUploader from './components/FileUploader'
 import Auth from './components/Auth'
 import Weather from './components/Weather'
 import Search from './components/Search'
+import ColoPicker from './components/ColoPicker'
+import Hamberger from './components/Hamberger'
+
 const App = () => {
-  const items = ["Item1", "Item2", "Item3","Another Item", "Another Item2"]
+  // const items = ["Item1", "Item2", "Item3","Another Item", "Another Item2"]
   return (
     <div>
       {/* <Hello/> */}
@@ -32,7 +35,9 @@ const App = () => {
       {/* <FileUploader/> */}
       {/* <Auth/> */}
      {/* <Weather/>  */}
-     <Search items={items}/>
+     {/* <Search items={items}/> */}
+     {/* <ColoPicker/> */}
+     <Hamberger/>
 
     </div>
   )
