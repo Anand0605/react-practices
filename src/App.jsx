@@ -16,6 +16,8 @@ import Weather from './components/Weather'
 import Search from './components/Search'
 import ColoPicker from './components/ColoPicker'
 import Hamberger from './components/Hamberger'
+import Shopping from './components/Shopping'
+import { CartProvider } from './components/CartContext'
 
 const App = () => {
   // const items = ["Item1", "Item2", "Item3","Another Item", "Another Item2"]
@@ -37,7 +39,10 @@ const App = () => {
      {/* <Weather/>  */}
      {/* <Search items={items}/> */}
      {/* <ColoPicker/> */}
-     <Hamberger/>
+     {/* <Hamberger/> */}
+     <CartProvider>
+     <Shopping/>
+     </CartProvider>
 
     </div>
   )
